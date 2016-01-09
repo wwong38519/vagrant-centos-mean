@@ -1,7 +1,7 @@
 VAGRANTFILE_API_VERSION ||= "2"
 
 box = "bento/centos-7.1"
-name = "centos-mean"
+name = "vagrant-centos-mean"
 ipaddr = "192.168.0.60"
 script = "provisioning/provision.sh"
 
