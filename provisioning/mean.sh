@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo yum install -y epel-release
+sudo yum install -y git
 
 ####### Nginx #######
 # Install
@@ -40,3 +41,4 @@ sudo yum install -y npm
 ####### ExpressJS #######
 # Install
 sudo npm install -g express-generator
+
